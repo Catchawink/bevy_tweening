@@ -28,10 +28,10 @@ bevy_text = ["bevy/bevy_text", "bevy/bevy_render", "bevy/bevy_sprite"]
 
 [dependencies]
 # Note: abuse 'bevy_color' to force 'bevy_math/curve' feature, which defines EaseFunction
-bevy = { git = "https://github.com/empathic-ai/bevy.git", branch = "reflect/serializable-dynamic-types", default-features = false, features = [ "bevy_color" ]}
+bevy = { git = "https://github.com/empathic-ai/bevy.git", branch = "reflect/serializable-dynamic-types", default-features = false, features = [ "bevy_color" ] }
 
-[dev-dependencies]
-bevy-inspector-egui = { version = "0.31" }
+# [dev-dependencies]
+# bevy-inspector-egui = { version = "0.31" }
 
 [[example]]
 name = "menu"
